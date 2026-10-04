@@ -1,0 +1,13 @@
+[package]
+name = "powershell-reverse-lab"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+base64 = "0.22.1"
+encoding_rs = "0.8.35"
+getrandom = "0.3.4"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.9"
+tokio = { version = "1.53.1", features = ["full"] }
+
